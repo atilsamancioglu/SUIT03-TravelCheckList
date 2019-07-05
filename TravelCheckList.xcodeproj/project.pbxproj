@@ -13,6 +13,10 @@
 		FC3C6E4722CF786200D35702 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC3C6E4622CF786200D35702 /* Assets.xcassets */; };
 		FC3C6E4A22CF786200D35702 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC3C6E4922CF786200D35702 /* Preview Assets.xcassets */; };
 		FC3C6E4D22CF786200D35702 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC3C6E4B22CF786200D35702 /* LaunchScreen.storyboard */; };
+		FC6AA24A22CF81F5008E3CB7 /* TravelCheckModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC6AA24922CF81F5008E3CB7 /* TravelCheckModel.swift */; };
+		FC6AA24C22CF82BB008E3CB7 /* TravelListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC6AA24B22CF82BB008E3CB7 /* TravelListView.swift */; };
+		FC6AA24E22CF839A008E3CB7 /* TravelDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC6AA24D22CF839A008E3CB7 /* TravelDetailView.swift */; };
+		FC6AA25022CF8741008E3CB7 /* SeenButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC6AA24F22CF8741008E3CB7 /* SeenButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		FC3C6E4922CF786200D35702 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		FC3C6E4C22CF786200D35702 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FC3C6E4E22CF786200D35702 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC6AA24922CF81F5008E3CB7 /* TravelCheckModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TravelCheckModel.swift; sourceTree = "<group>"; };
+		FC6AA24B22CF82BB008E3CB7 /* TravelListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TravelListView.swift; sourceTree = "<group>"; };
+		FC6AA24D22CF839A008E3CB7 /* TravelDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TravelDetailView.swift; sourceTree = "<group>"; };
+		FC6AA24F22CF8741008E3CB7 /* SeenButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeenButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +67,10 @@
 				FC3C6E4022CF786000D35702 /* AppDelegate.swift */,
 				FC3C6E4222CF786000D35702 /* SceneDelegate.swift */,
 				FC3C6E4422CF786000D35702 /* ContentView.swift */,
+				FC6AA24922CF81F5008E3CB7 /* TravelCheckModel.swift */,
+				FC6AA24B22CF82BB008E3CB7 /* TravelListView.swift */,
+				FC6AA24D22CF839A008E3CB7 /* TravelDetailView.swift */,
+				FC6AA24F22CF8741008E3CB7 /* SeenButton.swift */,
 				FC3C6E4622CF786200D35702 /* Assets.xcassets */,
 				FC3C6E4B22CF786200D35702 /* LaunchScreen.storyboard */,
 				FC3C6E4E22CF786200D35702 /* Info.plist */,
@@ -148,6 +160,10 @@
 			files = (
 				FC3C6E4122CF786000D35702 /* AppDelegate.swift in Sources */,
 				FC3C6E4322CF786000D35702 /* SceneDelegate.swift in Sources */,
+				FC6AA24A22CF81F5008E3CB7 /* TravelCheckModel.swift in Sources */,
+				FC6AA25022CF8741008E3CB7 /* SeenButton.swift in Sources */,
+				FC6AA24E22CF839A008E3CB7 /* TravelDetailView.swift in Sources */,
+				FC6AA24C22CF82BB008E3CB7 /* TravelListView.swift in Sources */,
 				FC3C6E4522CF786000D35702 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

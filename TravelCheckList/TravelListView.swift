@@ -10,7 +10,15 @@ import SwiftUI
 
 struct TravelListView : View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello World!"/*@END_MENU_TOKEN@*/)
+        
+        NavigationView{
+        List(travelArray){ travels in
+            NavigationLink(destination: TravelDetailView(chosenTravel: travels)) {
+                Text(travels.name)
+            }
+            
+        }
+    }
     }
 }
 
