@@ -17,6 +17,8 @@
 		FC6AA24C22CF82BB008E3CB7 /* TravelListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC6AA24B22CF82BB008E3CB7 /* TravelListView.swift */; };
 		FC6AA24E22CF839A008E3CB7 /* TravelDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC6AA24D22CF839A008E3CB7 /* TravelDetailView.swift */; };
 		FC6AA25022CF8741008E3CB7 /* SeenButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC6AA24F22CF8741008E3CB7 /* SeenButton.swift */; };
+		FCDC2BC522F6E71100091900 /* FirstScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCDC2BC422F6E71100091900 /* FirstScreen.swift */; };
+		FCDC2BC722F6E72100091900 /* SecondScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCDC2BC622F6E72100091900 /* SecondScreen.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +34,8 @@
 		FC6AA24B22CF82BB008E3CB7 /* TravelListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TravelListView.swift; sourceTree = "<group>"; };
 		FC6AA24D22CF839A008E3CB7 /* TravelDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TravelDetailView.swift; sourceTree = "<group>"; };
 		FC6AA24F22CF8741008E3CB7 /* SeenButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeenButton.swift; sourceTree = "<group>"; };
+		FCDC2BC422F6E71100091900 /* FirstScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstScreen.swift; sourceTree = "<group>"; };
+		FCDC2BC622F6E72100091900 /* SecondScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondScreen.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +75,8 @@
 				FC6AA24B22CF82BB008E3CB7 /* TravelListView.swift */,
 				FC6AA24D22CF839A008E3CB7 /* TravelDetailView.swift */,
 				FC6AA24F22CF8741008E3CB7 /* SeenButton.swift */,
+				FCDC2BC422F6E71100091900 /* FirstScreen.swift */,
+				FCDC2BC622F6E72100091900 /* SecondScreen.swift */,
 				FC3C6E4622CF786200D35702 /* Assets.xcassets */,
 				FC3C6E4B22CF786200D35702 /* LaunchScreen.storyboard */,
 				FC3C6E4E22CF786200D35702 /* Info.plist */,
@@ -160,8 +166,10 @@
 			files = (
 				FC3C6E4122CF786000D35702 /* AppDelegate.swift in Sources */,
 				FC3C6E4322CF786000D35702 /* SceneDelegate.swift in Sources */,
+				FCDC2BC722F6E72100091900 /* SecondScreen.swift in Sources */,
 				FC6AA24A22CF81F5008E3CB7 /* TravelCheckModel.swift in Sources */,
 				FC6AA25022CF8741008E3CB7 /* SeenButton.swift in Sources */,
+				FCDC2BC522F6E71100091900 /* FirstScreen.swift in Sources */,
 				FC6AA24E22CF839A008E3CB7 /* TravelDetailView.swift in Sources */,
 				FC6AA24C22CF82BB008E3CB7 /* TravelListView.swift in Sources */,
 				FC3C6E4522CF786000D35702 /* ContentView.swift in Sources */,

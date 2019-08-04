@@ -9,10 +9,11 @@
 import SwiftUI
 
 struct ContentView : View {
-    
     @State var characterName = "Luke Skywalker"
+
     
     var body: some View {
+
         VStack{
         Text(characterName).padding().font(.largeTitle)
             
@@ -22,7 +23,7 @@ struct ContentView : View {
                 Text("Change Character")
             }
             
-            TextField($characterName)
+            TextField("placeholder", text: $characterName)
             
         }
     }
